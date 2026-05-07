@@ -5,3 +5,12 @@
 .detail-title{font-size:40px!important;line-height:.95!important;font-weight:500!important;letter-spacing:-.06em!important}
 .saju-chart{border:1px solid rgba(255,255,255,.10);background:rgba(0,0,0,.22);border-radius:24px;padding:16px;margin-bottom:16px;overflow:hidden}
 .saju-chart-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;margin-bottom:16px}.saju-chart-head h3{margin:0;font-size:22px;font-weight:700;letter-spacing:-.05em}.saju-chart-head p{margin:4px 0 0;color:rgba(255,255,255,.35);font-size:12px}.saju-chart-head span{border:1px solid rgba(255,255,255,.10);background:rgba(255,255,255,.05);border-radius:999px;color:rgba(255,255,255,.45);font-size:12px;padding:5px 10px}.saju-chart-scroll{overflow-x:auto;scrollbar-width:none}.saju-chart-scroll::-webkit-scrollbar{display:none}.saju-chart-grid{min-width:620px;display:grid;grid-template-columns:72px repeat(4,1fr);column-gap:8px;row-gap:8px;text-align:center}.saju-col{font-size:14px;font-weight:800;color:#9b6cff}.saju-row-label{display:flex;align-items:center;justify-content:flex-start;color:rgba(255,255,255,.35);font-size:12px;padding:8px 0}.saju-cell{min-height:40px;display:flex;align-items:center;justify-content:center;padding:8px;color:rgba(255,255,255,.62);font-size:14px;line-height:1.45;word-break:keep-all}.saju-cell.main{border-radius:16px;background:rgba(255,255,255,.055);padding:12px 8px}.saju-cell.main span{font-size:20px;font-weight:900;color:rgba(255,255,255,.9)}
+
+/* UI revision 2026-05-07 */
+h1{font-size:40px!important;font-weight:300!important;line-height:1.05!important;letter-spacing:-.06em!important}
+.matched-title,.detail-title{font-size:40px!important;font-weight:300!important;line-height:1.05!important;letter-spacing:-.06em!important}
+.philo-passage{font-family:Georgia,'Times New Roman','Noto Serif KR',serif!important;font-weight:400!important}
+section.mb-7>h2.detail-title+p{display:none!important}
+section.rounded-\[28px\].p-6.mb-7>p:nth-of-type(3){display:none!important}
+section.rounded-\[28px\].p-6.mb-7>div.rounded-\[24px\]{display:none!important}
+.saju-cell{white-space:pre-line!important;line-height:1.45!important}
